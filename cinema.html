@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" > -->
+    
+<link rel="stylesheet" href="cinema.css">
+    <title>Cinema Reservation</title>
+  </head>
+  <body>
+    <div class="container ">
+        
+        <div class="screen "></div>
+        <div class="row">
+            <div class="seat selected ">seat1 </div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat selected">seat1 </div>
+            <div class="seat reserved"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"> </div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        <div class="row">
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+            <div class="seat"></div>
+        </div>
+        
+        
+    </div>
+
+    <div class="movie-list">
+        <select name="movie" id="movie" >
+            <option disabled>Film seçiniz</option>
+            <option value="10"> Movie-1</option>
+            <option value="20">Movie-2</option>
+            <option value="30">Movie-3</option>
+            <option value="40">Movie-4</option>
+            <option value="50">Movie-5</option>
+        </select>
+    </div>
+
+<ul class="info">
+    <li  class="seat selected"> Seçili</li>
+    <li class="seat" > Bos</li>
+    <li class="seat reserved">Rezerve</li>
+</ul>
+
+<p class="text"><span id="count">  </span>  Adet kolduk için ödeyeceğiniz miktar <span id="amount"> </span> TL</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    
+    <script src="cinema.js"></script>
+    
+  </body>
+</html>
